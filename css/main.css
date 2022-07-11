@@ -1,18 +1,11 @@
 /* Variables */
 :root {
-  /* --main-text-yellow-color: #FCB72B;
+  --main-text-yellow-color: #FCB72B;
   --main-darkNavy-color: #495567;
   --main-dimGrey-color: #939CAA;
   --main-lightGrey-color: #E5ECF4;
   --main-snow-color: #F2F5F9;
-  --main-lgihtYellow-color: #FFF4DF; */
-  --main-white-color: #ffffff;
-  --main-text-yellow-color : #FCB72B;
-  --main-darkNavy-color : #495567;
-  --main-dimGrey-color : #939CAA;
-  --main-lightGrey-color : #E5ECF4;;
-  --main-snow-color : #F2F5F9;;
-  --main-lgihtYellow-color : #FFF4DF;
+  --main-lgihtYellow-color: #FFF4DF;
 }
 
 
@@ -156,7 +149,7 @@ body {
 /* End of Header Section */
 
 /* Start Main Page Hero Section */
-.hero {
+#hero {
   position: relative;
   padding: 152px 0;
   background-image: url('../images/main-hero-bg-img.jpg');
@@ -165,7 +158,7 @@ body {
   background-position: center;
 }
 
-.hero::after {
+#hero::after {
   position: absolute;
   bottom: 170px;
   right: -50px;
@@ -426,18 +419,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .hero{
   position: relative;
   padding: 62px 0;
@@ -451,7 +432,7 @@ body {
   background-image: url("../images/careers-bg.jpg");
 }
 
-/* .hero::after{
+.hero::after{
   position: absolute;
   content: "";
   top: 40%;
@@ -463,7 +444,7 @@ body {
   border: 3px solid var(--main-white-color);
   border-color: var(--main-white-color);
   cursor: pointer;
-} */
+}
 
 .hero::before{
   position: absolute;
@@ -776,7 +757,6 @@ body {
 
 .article{
   padding: 70px 0;
-  margin-top: 160px;
   background-image: url("../images/article-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
