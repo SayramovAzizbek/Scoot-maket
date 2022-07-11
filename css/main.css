@@ -438,7 +438,7 @@ body {
 
 
 
-.hero{
+.about-hero{
   position: relative;
   padding: 62px 0;
   background-image: url("../images/about-bg.jpg");
@@ -451,7 +451,7 @@ body {
   background-image: url("../images/careers-bg.jpg");
 }
 
-/* .hero::after{
+.about-hero::after{
   position: absolute;
   content: "";
   top: 40%;
@@ -463,9 +463,9 @@ body {
   border: 3px solid var(--main-white-color);
   border-color: var(--main-white-color);
   cursor: pointer;
-} */
+}
 
-.hero::before{
+.about-hero::before{
   position: absolute;
   content: "";
   top: 40%;
@@ -479,7 +479,7 @@ body {
   cursor: pointer;
 }
 
-.hero__heading{
+.about-hero__heading{
   position: relative;
   font-family: 'Space Mono';
   font-weight: 700;
@@ -489,7 +489,7 @@ body {
   color: var(--main-white-color);
 }
 
-.hero__heading::after{
+.about-hero__heading::after{
   position: absolute;
   content: "";
   top: 0%;
