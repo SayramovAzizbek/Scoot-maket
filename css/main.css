@@ -58,7 +58,7 @@ a{
   text-decoration: none;
 }
 
-body {
+body{
   display: flex;
   flex-direction: column;
   height: 100%;
