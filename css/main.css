@@ -4,9 +4,7 @@
   --main-darkNavy-color: #495567;
   --main-dimGrey-color: #939CAA;
   --main-lightGrey-color: #E5ECF4;
-  ;
   --main-snow-color: #F2F5F9;
-  ;
   --main-lgihtYellow-color: #FFF4DF;
 }
 
@@ -60,7 +58,7 @@ a {
   text-decoration: none;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   height: 100%;
