@@ -1,10 +1,36 @@
 /* Variables */
 :root {
-  /* --main-text-color : #fff; */
-  /* --main-bg-color : #fff; */
-  /* --main-font-size : 16px; */
-  /* --main-font-weight : 400; */
-  /* --main-line-height : 1.5; */
+  --main-text-yellow-color : #FCB72B;
+  --main-darkNavy-color : #495567;
+  --main-dimGrey-color : #939CAA;
+  --main-lightGrey-color : #E5ECF4;;
+  --main-snow-color : #F2F5F9;;
+  --main-lgihtYellow-color : #FFF4DF;
+}
+
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/space-mono-v11-latin-regular.woff2') format('woff2'),
+    url('../fonts/space-mono-v11-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/space-mono-v11-latin-700.woff2') format('woff2'),
+    url('../fonts/space-mono-v11-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lexend-deca-v16-latin-regular.woff2') format('woff2'),
+    url('../fonts/lexend-deca-v16-latin-regular.woff') format('woff');
 }
 
 /* General */
@@ -21,16 +47,23 @@ img {
   height: auto;
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
   height: 100%;
   margin: 0;
   padding: 0;
-  /* font-family: "Roboto", "Arial", sans-serif; */
-  /* font-size: 16px; */
-  /* font-weight: 400; */
-  /* line-height: var(--main-line-height); */
 }
 
 .visually-hidden {
@@ -48,7 +81,7 @@ body {
 
 /* Container */
 .container {
-  /* max-width: your-size-here; */
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
 }
