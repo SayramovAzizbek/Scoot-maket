@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Location Page</title>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
@@ -48,37 +50,54 @@
             </div>
         </section>
 
-    <!-- Start Article Section -->
-    <article class="article">
-        <div class="container">
-          <div class="article__box">
-            <div class="article__heading">
-              <h2 class="article__title">
-                Sign up and Scoot off today
-              </h2>
+        <!-- Start Map Section -->
+        <section class="map">
+            <div class="container">
+                <div id="map"></div>
+                <div class="map-info">
+                    <div class="map-infoo__title-box">
+                        <h2 class="map-info__title">Your City Not Listed?</h2>
+                    </div>
+                    <div class="map-info__text-box">
+                        <p class="map-info__text">If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
+                    </div>
+                    <a class="map-info__link site-links" href="#">Message Us</a>   
+                </div>
             </div>
-            <div class="article__links">
-              <a class="article__link" href="https://www.apple.com/ru/app-store/" target="blank">
-                <p class="article__subdesc">
-                  Available on the
-                </p>
-                <p class="article__download__type">
-                  AppStore
-                </p>
-              </a>
-              <a class="article__link" href="https://play.google.com/store/games?hl=ru&gl=US" target="blank">
-                <p class="article__subdesc">
-                  Get it on
-                </p>
-                <p class="article__download__type">
-                  GooglePlay
-                </p>
-              </a>
+        </section>
+        <!-- End of Map Section -->
+
+        <!-- Start Article Section -->
+        <article class="article">
+            <div class="container">
+                <div class="article__box">
+                    <div class="article__heading">
+                        <h2 class="article__title">
+                            Sign up and Scoot off today
+                        </h2>
+                    </div>
+                    <div class="article__links">
+                        <a class="article__link" href="https://www.apple.com/ru/app-store/" target="blank">
+                            <p class="article__subdesc">
+                                Available on the
+                            </p>
+                            <p class="article__download__type">
+                                AppStore
+                            </p>
+                        </a>
+                        <a class="article__link" href="https://play.google.com/store/games?hl=ru&gl=US" target="blank">
+                            <p class="article__subdesc">
+                                Get it on
+                            </p>
+                            <p class="article__download__type">
+                                GooglePlay
+                            </p>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </article>
-      <!-- End of Article Section -->
+        </article>
+        <!-- End of Article Section -->
     </main>
 
     <!-- Start Footer Section -->
@@ -144,5 +163,8 @@
     </footer>
     <!-- End of Footer Section-->
 </body>
+
+<script src="./js/mapdata.js"></script>
+<script src="./js/worldmap.js"></script>
 
 </html>

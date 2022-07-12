@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-  --main-white-color: #ffffff;
+    --main-white-color: #ffffff;
     --main-text-yellow-color: #FCB72B;
     --main-darkNavy-color: #495567;
     --main-dimGrey-color: #939CAA;
@@ -161,7 +161,7 @@ body {
 
 #hero::after {
     position: absolute;
-    bottom:calc(50% - 155px);
+    bottom: calc(50% - 155px);
     right: calc(50% - 805px);
     width: 234px;
     height: 63px;
@@ -295,6 +295,10 @@ body {
 /* Start Info Section */
 #info {
     padding: 0 0 178px 0;
+}
+
+#careers-info {
+    padding: 0;
 }
 
 .easy-list__item {
@@ -505,7 +509,7 @@ body {
 }
 
 .value {
-    padding-top: 78px;
+    padding-top: 120px;
 }
 
 .value__heading,
@@ -724,7 +728,7 @@ body {
 
 /* Start Course Section */
 .courses {
-    padding-top: 120px;
+    padding: 120px 0 160px 0;
 }
 
 .courses__item {
@@ -917,3 +921,38 @@ body {
 }
 
 /* End of Footer Section */
+
+.map {}
+
+.map-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 0;
+}
+
+.map-infoo__title-box {
+    width: 351px;
+}
+
+.map-info__title {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: var(--main-darkNavy-color);
+}
+
+.map-info__text-box {
+    width: 445px;
+}
+
+.map-info__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-dimGrey-color);
+}
