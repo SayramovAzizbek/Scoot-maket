@@ -7,6 +7,7 @@
     --main-lightGrey-color: #E5ECF4;
     --main-snow-color: #F2F5F9;
     --main-lgihtYellow-color: #FFF4DF;
+    --main-white-color: #ffffff;
 }
 
 @font-face {
@@ -160,8 +161,8 @@ body {
 
 #hero::after {
     position: absolute;
-    bottom: 170px;
-    right: -50px;
+    bottom:calc(50% - 155px);
+    right: calc(50% - 805px);
     width: 234px;
     height: 63px;
     background-image: url('../images/three-round-bg-img.svg');
@@ -421,7 +422,8 @@ body {
 
 .about-hero {
     position: relative;
-    padding: 62px 0;
+    padding: 32px 0;
+    margin-bottom: 120px;
     background-image: url("../images/about-bg.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -484,13 +486,31 @@ body {
     cursor: pointer;
 }
 
+.about-easy-list__item::before {
+    position: absolute;
+    right: -233px !important;
+    bottom: 25px !important;
+    z-index: 5;
+    width: 735px;
+    height: 138px;
+    padding-top: 120px !important;
+    background-image: url('../images/arrow-left-2.svg') !important;
+    background-size: 735px 138px;
+    background-repeat: no-repeat;
+    content: '';
+}
+
+#about-info {
+    padding: 0;
+}
+
 .value {
     padding-top: 78px;
 }
 
 .value__heading,
 .faq__heading {
-    margin-bottom: 85px;
+    margin: 0 0 85px 0;
     font-family: 'Space Mono';
     font-weight: 700;
     font-size: 48px;
@@ -620,6 +640,8 @@ body {
     color: var(--main-dimGrey-color);
 }
 
+/* Start FAQ Section */
+/* End of FAQ Section */
 .faq {
     padding-top: 120px;
     padding-bottom: 160px;
@@ -700,6 +722,7 @@ body {
     color: var(--main-darkNavy-color);
 }
 
+/* Start Course Section */
 .courses {
     padding-top: 120px;
 }
@@ -752,12 +775,15 @@ body {
     background-color: transparent;
 }
 
+/* End of Course Section */
+
+/* Start Article Section */
 .article {
     padding: 70px 0;
     background-image: url("../images/article-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .article__box {
@@ -834,6 +860,9 @@ body {
     color: var(--main-white-color);
 }
 
+/* End of Article Section */
+
+/* Start Footer Section */
 .footer {
     padding-top: 35px;
     padding-bottom: 32px;
@@ -870,13 +899,21 @@ body {
     font-size: 15px;
     line-height: 25px;
     color: var(--main-dimGrey-color);
+    transition: color .5s;
+}
+
+.footer__link:hover {
+    color: var(--main-text-yellow-color);
 }
 
 .footer__social__item {
     margin-right: 24px;
     color: var(--main-text-yellow-color);
+    transition: color .5s;
 }
 
 .footer__social__item:hover {
-    color: var(--main-white-color);
+    color: #E5ECF4;
 }
+
+/* End of Footer Section */
