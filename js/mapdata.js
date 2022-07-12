@@ -4,13 +4,13 @@ var simplemaps_worldmap_mapdata={
     width: "responsive", //'700' or 'responsive'
     background_color: "#ffffff",
     background_transparent: "yes",
-    border_color: "#ffffff",
+    border_color: "#E5ECF4",
     popups: "detect",
     
     //State defaults
-    state_description: "State description",
+    state_description: "",
     state_color: "#E5ECF4",
-    state_hover_color: "#3B729F",
+    state_hover_color: "#FCB72B",
     state_url: "https://www.google.com/maps",
     border_size: 1.5,
     all_states_inactive: "no",
@@ -221,7 +221,8 @@ var simplemaps_worldmap_mapdata={
       name: "Gabon"
     },
     GB: {
-      name: "United Kingdom"
+      name: "United Kingdom",
+      url:"https://goo.gl/maps/6ymr3K7VeSYFgQVj8"
     },
     GE: {
       name: "Georgia"
@@ -266,7 +267,8 @@ var simplemaps_worldmap_mapdata={
       name: "Hungary"
     },
     ID: {
-      name: "Indonesia"
+      name: "Indonesia",
+      url: "https://goo.gl/maps/4WpbnNgiQLdAy1GG6"
     },
     IN: {
       name: "India"
@@ -296,7 +298,8 @@ var simplemaps_worldmap_mapdata={
       name: "Jordan"
     },
     JP: {
-      name: "Japan"
+      name: "Japan",
+      url:"https://goo.gl/maps/Axrk9DZqQiJ9taidA"
     },
     KZ: {
       name: "Kazakhstan"
@@ -536,7 +539,8 @@ var simplemaps_worldmap_mapdata={
       name: "Uruguay"
     },
     US: {
-      name: "United States"
+      name: "United States",
+      url:"https://goo.gl/maps/WaHZcjBuaJZ5fA7Q9"
     },
     UZ: {
       name: "Uzbekistan"
@@ -721,7 +725,6 @@ var simplemaps_worldmap_mapdata={
         type: "image",
         image_url: "./images/newyork.svg",
         size: "50",
-  
       },
       "1": {
         name: "London",
