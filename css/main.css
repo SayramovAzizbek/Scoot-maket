@@ -488,7 +488,7 @@ body {
 .about-easy-list__item::before {
     position: absolute;
     right: -233px !important;
-    bottom: 25px !important;
+    bottom: -95px !important;
     z-index: 5;
     width: 735px;
     height: 138px;
